@@ -1,0 +1,10 @@
+[package]
+name = "openbmc-sel-healer"
+version = "0.1.0"
+edition = "2021"
+description = "no_std Embedded Rust TFLite INT8 SEL failure correlation and container-aware OpenBMC self-healing engine for Aspeed AST2700"
+license = "Apache-2.0"
+
+[lib]
+name = "openbmc_sel_healer"
+path = "src/lib.rs"
